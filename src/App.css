@@ -1,0 +1,34 @@
+.App {
+    text-align: center;
+    padding: 10px;
+}
+.episodes,
+.characters {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.episode,
+.character {
+    width: 20%;
+    padding: 15px;
+    height: auto;
+    margin-bottom: 25px;
+    background-color: burlywood;
+    border-radius: 20px;
+}
+.episodeName {
+    font-size: 30px;
+    color: black;
+}
+.episodeDate,
+.gender {
+    font-size: 25px;
+}
+.list {
+    text-align: center;
+}
+.characterImg {
+    border-radius: 50%;
+    width: 75%;
+}
